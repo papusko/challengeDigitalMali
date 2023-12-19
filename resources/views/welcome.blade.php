@@ -43,8 +43,8 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="{{ asset('assets/img/logo.png') }}" alt="">
-        <span>Clallenge Digital Mali</span>
+        <img src="{{ asset('assets/img/logocdm.jpeg') }}" alt="">
+        <span>Challenge Digital Mali</span>
       </a>
 
       <nav id="navbar" class="navbar">
@@ -466,7 +466,7 @@
         <div class="row gy-4">
           <div class="col-lg-6 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <img src="{{ asset('assets/img/logo.png') }}" alt="">
+              <img src="{{ asset('assets/img/logocdm.jpeg') }}" alt="">
               <span>Challenge Digital Mali</span>
             </a>
             <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> -->
