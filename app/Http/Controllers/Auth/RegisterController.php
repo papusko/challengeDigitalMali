@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
+use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
@@ -129,85 +130,18 @@ class RegisterController extends Controller
         // }
 
         $user->notify(new ThankYou());
-    
-        return $user;
+        return $user;       
     }
 
-    
-
-    /**
-     * Create a new user with admin role instance after a valid registration.
+     /**
+     * The user has been registered.
      *
-     * @param  array  $data
-     * @return \App\Models\User
+     * @param  \Illuminate\Http\Request  $request
+     * @param  mixed  $user
+     * @return mixed
      */
-    protected function createAdmin(Request $request)
+    protected function registered(Request $request, $user)
     {
-        dd($request);
-
-        $validated = $request->validate([
-            'title' => ['required', 'string', 'max:255'],
-            'description' => ['required', 'string', 'max:255']
-        ]);
-        $user = User::create([
-            'fullname' => $data['fullname'],
-            'address' => $data['address'],
-            'region' => $data['region'],
-            'motivation' => $data['motivation'],
-            'role' => 'admin',
-            'phone_number' => $data['phone_number'],
-            'work_in_company' => $data['work_in_company'] ?? false, // Modifié cette ligne
-            'company_name' => $data['company_name'] ?? null,
-            'tasks_description' => $data['tasks_description'] ?? null,
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-            'is_active' => $data['is_active'] ?? false,
-        ]);
-
-        // if ($data['profile_picture'] && $data['profile_picture']->isValid()) {
-        //     $imagePath = $data['profile_picture']->store('profile_pictures', 'public');
-        //     $user->update(['profile_picture' => $imagePath]);
-        // }
-
-        $user->notify(new ThankYou());
-    
-        return $user;
-    }
-
-    public function superAdminView(){
-        return view('auth.super_admin');
-    }
-
-    /**
-     * Create a new user with super admin role instance after a valid registration.
-     *
-     * @param  array  $data
-     * @return \App\Models\User
-     */
-    protected function createSuperAdmin(array $data)
-    {
-        $user = User::create([
-            'fullname' => $data['fullname'],
-            'address' => $data['address'],
-            'region' => $data['region'],
-            'motivation' => $data['motivation'],
-            'role' => 'admin',
-            'phone_number' => $data['phone_number'],
-            'work_in_company' => $data['work_in_company'] ?? null, // Ajoutez cette ligne
-            'company_name' => $data['company_name'] ?? null, // Ajoutez cette ligne
-            'tasks_description' => $data['tasks_description'] ?? null, // Ajoutez cette ligne
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-            'is_active' => $data['is_active'] ?? false,
-        ]);
-
-        // if ($data['profile_picture'] && $data['profile_picture']->isValid()) {
-        //     $imagePath = $data['profile_picture']->store('profile_pictures', 'public');
-        //     $user->update(['profile_picture' => $imagePath]);
-        // }
-
-        $user->notify(new ThankYou());
-    
-        return $user;
+        // Laissez cette méthode vide pour désactiver la connexion automatique
     }
 }

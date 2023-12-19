@@ -69,7 +69,7 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up">Hackathon inedit à venir</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2>
+          <h2 data-aos="fade-up" data-aos-delay="400">Le meilleur challenge jamais vue au Mali</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -97,7 +97,7 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>Comment participer</h3>
-              <h2>Vous êtes jeune développeur, diplômé en finances, ou en commerce et communication ? Tentez votre chance au CHALLENGE DIGITAL MALI et faites partie des innovateurs qui façonneront le futur du numérique au Mali.</h2><br>
+              <h4 data-aos="fade-up" data-aos-delay="400">Vous êtes jeune développeur, diplômé en finances, ou en commerce et communication ? Tentez votre chance au CHALLENGE DIGITAL MALI et faites partie des innovateurs qui façonneront le futur du numérique au Mali.</h4><br>
               <h3>Comment s'inscrire</h3> 
               <p>Inscrivez-vous individuellement et, si vous êtes sélectionné, vous serez assigné à une équipe le jour du lancement. C'est une opportunité unique de travailler avec des coéquipiers aux compétences diverses, de construire un réseau professionnel et de vivre une expérience inoubliable.
 
