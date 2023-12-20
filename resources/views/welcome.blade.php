@@ -323,7 +323,7 @@
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Adresse</h3>
-                  <p>>Sotuba Aci</p>
+                  <p>Sotuba ACI</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -415,8 +415,8 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 col-md-12 footer-info">
-            <a href="/" class="logo d-flex align-items-center">
-              <img src="{{ asset('assets/img/logocdm.jpeg') }}" alt="">
+            <a href="https://www.facebook.com/profile.php?id=61554710376840" class="logo d-flex align-items-center">
+              <img src="{{ asset('assets/img/logocdm.jpg') }}" alt="">
               <span>Challenge Digital Mali</span>
             </a>
             <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> -->
@@ -437,7 +437,7 @@
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Challenge Digital Mali</h4>
-            <p>Sotuba ACI ><br>
+            <p>Sotuba ACI<br>
               <strong>Phone:</strong> +223 74 18 01 01<br>
               <strong>Email:</strong> contact@cdigitalmali.com<br>
             </p>
