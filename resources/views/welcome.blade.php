@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
+  <link href="{{ asset('assets/img/logocdm.jpeg') }}" rel="icon">
   <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts --> 
@@ -42,9 +42,9 @@
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
         <img src="{{ asset('assets/img/logocdm.jpeg') }}" alt="">
-        <span>Challenge Digital Mali</span>
+        <span>CDM</span>
       </a>
 
       <nav id="navbar" class="navbar">
@@ -54,7 +54,7 @@
           <li><a class="nav-link scrollto" href="#eligible">Critères d'éligibilité </a></li>
           <li><a class="nav-link scrollto" href="#detailschallenge">Détails du challenge</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <!-- <li><a class="getstarted scrollto" href="#about">Postuler</a></li> -->
+          <li><a class="getstarted scrollto" href="/register">Postuler</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -68,11 +68,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">24 heures pour transformer vos idées en réalité</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Innovez, collaborez, triomphez!</h2>
+          <h1 data-aos="fade-up">Challenge Digital Mali </h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">24 heures pour transformer vos idées en réalité</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="#detailschallenge" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Tout savoir sur le challenge</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="{{ asset('assets/img/hero-img.png') }}" class="img-fluid" alt="">
+          <img src="{{ asset('assets/img/felipe.jpg') }}" class="img-fluid imgbord" alt="">
         </div>
       </div>
     </div>
@@ -106,8 +106,8 @@
 
               </p>
               <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
+                <a href="#eligible" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Plus d'infos</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -115,7 +115,7 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="{{ asset('assets/img/about.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/desol.jpg') }}" class="img-fluid imgbord" alt="">
           </div>
 
         </div>
@@ -130,7 +130,7 @@
 
         <header class="section-header">
           <h2>Détails du Challenge</h2>
-          <p>Vous aurez 24 heures en équipe pour:</p>
+          <p>Vous aurez 24 heures en équipe</p>
         </header>
 
         <div class="row">
@@ -138,7 +138,7 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
               <img src="{{ asset('assets/img/values-1.png') }}" class="img-fluid" alt="">
-              <h3>conceptualiser</h3>
+              <h3>Pour conceptualiser</h3>
               <!-- <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p> -->
             </div>
           </div>
@@ -146,7 +146,7 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div class="box">
               <img src="{{ asset('assets/img/values-2.png') }}" class="img-fluid" alt="">
-              <h3>développer un MVP .</h3>
+              <h3>Pour développer un MVP</h3>
               <!-- <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p> -->
             </div>
           </div>
@@ -154,12 +154,12 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
             <div class="box">
               <img src="{{ asset('assets/img/values-3.png') }}" class="img-fluid" alt="">
-              <h3>préparer un pitch qui convaincra notre jury</h3>
+              <h3>Pour préparer un pitch qui convaincra notre jury</h3>
               <!-- <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p> -->
             </div>
           </div>
 
-          <p class="mt-4"><p>Les équipes gagnantes formeront des startups qui seront soutenues pendant un an, avec des enveloppes financières pour les trois premiers projets de 10, 8 et 5 millions de FCFA.</p></p>
+          <p class="mt-4"><p><strong>Les équipes gagnantes formeront des startups qui seront soutenues pendant un an, avec des enveloppes financières pour les trois premiers projets de 10, 8 et 5 millions de FCFA.</strong> </p></p>
 
         </div>
 
@@ -167,57 +167,7 @@
 
     </section><!-- End Values Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Happy Clients</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Projects</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-headset" style="color: #15be56;"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hours Of Support</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-people" style="color: #bb0852;"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hard Workers</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
+   
     <!-- ======= Features Section ======= -->
     <section id="eligible" class="features">
 
@@ -275,20 +225,6 @@
                   <h3>Ne pas avoir d'entreprise existante ou d'emploi à temps plein qui interférerait avec l'engagement dans le challenge</h3>
                 </div>
               </div>
-
-              <!-- <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Alias possimus</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Repellendus mollitia</h3>
-                </div>
-              </div> -->
 
             </div>
           </div>
@@ -375,7 +311,7 @@
 
         <header class="section-header">
           <h2>Contact</h2>
-          <p>Nous joindre </p>
+          <p>Besoin d'infos ? </p>
         </header>
 
         <div class="row gy-4">
@@ -386,22 +322,22 @@
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>ACentre Cesiri,<br>Sotuba Aci</p>
+                  <h3>Adresse</h3>
+                  <p>>Sotuba Aci</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
-                  <h3>Pour les appels</h3>
-                  <p>+223 77 77 77 77 <br>+223 66 66 66 66</p>
+                  <h3>Appelez-nous</h3>
+                  <p>+223 74 18 01 01</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email </h3>
-                  <p>>contact@challengedigital.ml</p>
+                  <p>contact@cdigitalmali.com</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -459,7 +395,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
-    <div class="footer-newsletter">
+    <!-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12 text-center">
@@ -473,35 +409,37 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="/" class="logo d-flex align-items-center">
               <img src="{{ asset('assets/img/logocdm.jpeg') }}" alt="">
               <span>Challenge Digital Mali</span>
             </a>
             <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> -->
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61554710376840" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61554710376840" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61554710376840" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
+
+            <div class="partenaire">
+            <h3>Une initiative de l'AMRTP</h3>
+          <img class="logamrtp" src="{{ asset('assets/img/amrtp.jpg') }}" alt="">
           </div>
+          </div>
+          
 
           
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>AMRTP</h4>
-            <p>
-              Centre Cesiri <br>
-              Sotuba ACI <br>
-              Bamako - Mali <br><br>
-              <strong>Phone:</strong> +223 77 77 77 77 77<br>
-              <strong>Email:</strong> info@challengedigitalmali.com<br>
+            <h4>Challenge Digital Mali</h4>
+            <p>Sotuba ACI ><br>
+              <strong>Phone:</strong> +223 74 18 01 01<br>
+              <strong>Email:</strong> contact@cdigitalmali.com<br>
             </p>
 
           </div>

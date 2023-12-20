@@ -2438,3 +2438,14 @@ section {
     text-align: justify;
     text-justify: inter-word;
 }
+.logamrtp {
+    height: 100px;
+    width: 100px;
+}
+.partenaire {
+    margin-top: 12px;
+}
+
+.imgbord {
+    border-radius: 20px;
+}
