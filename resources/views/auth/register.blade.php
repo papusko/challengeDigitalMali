@@ -12,9 +12,9 @@
                 <div class="row">
                     <div class="col-md-3 register-left">
                         <img src="{{ asset('assets/img/logocdm.jpeg') }}" alt=""/>
-                        <h3>Welcome</h3>
-                        <p>You are 30 seconds away from earning your own money!</p>
-                         <input type="submit" name="" value="Login"/><br/>
+                        <h3>Challenge Mali Digital</h3>
+                        <p>Inscrivez-vous !</p>
+                         <input type="submit" name="" value="Voir le site"/><br/>
                     </div>
                     <div class="col-md-9 register-right">
                   
@@ -29,6 +29,7 @@
                         </ul>
                     </div>
                 @endif
+                
 
                     <form method="POST" action="{{ route('register') }}">
                         @csrf

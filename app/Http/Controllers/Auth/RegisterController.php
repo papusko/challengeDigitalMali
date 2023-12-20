@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
@@ -31,7 +32,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = RouteServiceProvider::LANDINGPAGE;
 
     /**
      * Create a new controller instance.
@@ -142,6 +143,10 @@ class RegisterController extends Controller
      */
     protected function registered(Request $request, $user)
     {
-        // Laissez cette méthode vide pour désactiver la connexion automatique
+        // Laissez cette méthode vide pour désactiver la connexion automatique// Ajoutez un message flash à la session
+    Session::flash('success', 'Inscription réussie ! Bienvenue, ' . $user->fullname);
+
+    // Redirigez l'utilisateur vers la page souhaitée
+    return redirect()->intended($this->redirectPath());
     }
 }
