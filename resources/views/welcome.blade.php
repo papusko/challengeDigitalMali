@@ -50,7 +50,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
-          <li><a class="nav-link scrollto" href="#about">Comment Participer </a></li> 
+          <li><a class="nav-link scrollto" href="#about">Comment participer </a></li> 
           <li><a class="nav-link scrollto" href="#eligible">Critères d'éligibilité </a></li>
           <li><a class="nav-link scrollto" href="#detailschallenge">Détails du challenge</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -68,12 +68,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Hackathon inedit à venir</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Le meilleur challenge jamais vue au Mali</h2>
+          <h1 data-aos="fade-up">24 heures pour transformer vos idées en réalité</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Innovez, collaborez, triomphez!</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Tout savoir sur notre hackathon</span>
+                <span>Tout savoir sur le challenge</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -97,9 +97,12 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>Comment participer</h3>
-              <h4 data-aos="fade-up" data-aos-delay="400">Vous êtes jeune développeur, diplômé en finances, ou en commerce et communication ? Tentez votre chance au CHALLENGE DIGITAL MALI et faites partie des innovateurs qui façonneront le futur du numérique au Mali.</h4><br>
+              <h4 data-aos="fade-up" data-aos-delay="400" class="justText">Vous êtes jeune développeur, diplômé en finances, ou en commerce et communication ? </h4>
+              <h4 data-aos="fade-up" data-aos-delay="400" class="justText">Tentez votre chance au <strong  class="blueText">CHALLENGE DIGITAL MALI</strong>  et faites partie des innovateurs qui façonneront le futur du numérique au Mali.</h4><br>
+<br>
+
               <h3>Comment s'inscrire</h3> 
-              <p>Inscrivez-vous individuellement et, si vous êtes sélectionné, vous serez assigné à une équipe le jour du lancement. C'est une opportunité unique de travailler avec des coéquipiers aux compétences diverses, de construire un réseau professionnel et de vivre une expérience inoubliable.
+              <p class="justText">Inscrivez-vous individuellement et, si vous êtes sélectionné, vous serez assigné à une équipe le jour du lancement. C'est une opportunité unique de travailler avec des coéquipiers aux compétences diverses, de construire un réseau professionnel et de vivre une expérience inoubliable.
 
               </p>
               <div class="text-center text-lg-start">
@@ -237,15 +240,26 @@
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Être âgé de 18 à 35 ans.</h3>
+                  <h3 class="justText">Être âgé de 18 à 35 ans.</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Avoir une expertise ou une formation dans l'un des domaines suivants : développement backend/fullstack, développement frontend/fullstack, finances, études commerciales ou communication</h3>
+                  <h3 >Avoir une expertise ou une formation dans l'un des domaines suivants : <br> <br> 
+                    <ul>
+                      <li>développement backend/fullstack</li> <br>
+                      <li>développement frontend/fullstack</li> <br>
+                      <li>études commerciales ou communication</li>
+                      <li>finances</li>
+                    </ul>  
+                  </h3>
+                  <div>
+                    
+                  </div>
                 </div>
+                  
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
@@ -298,7 +312,7 @@
                   <i class="ri-line-chart-line"></i>
                   <div>
                     <h4>Détails du Challenge</h4>
-                    <p>Le défi ? <br> Vous aurez 24 heures en équipe pour conceptualiser, développer un MVP et préparer un pitch qui convaincra notre jury.<br> Les équipes gagnantes formeront des startups qui seront soutenues pendant un an, avec des enveloppes financières pour les trois premiers projets de 10, 8 et 5 millions de FCFA.</p>
+                    <p class="justText">Le défi ? <br> Vous aurez 24 heures en équipe pour conceptualiser, développer un MVP et préparer un pitch qui convaincra notre jury.<br> Les équipes gagnantes formeront des startups qui seront soutenues pendant un an, avec des enveloppes financières pour les trois premiers projets de 10, 8 et 5 millions de FCFA.</p>
                   </div>
                 </div>
 
@@ -306,7 +320,7 @@
                   <i class="ri-stack-line"></i>
                   <div>
                     <h4>Jury et Critères </h4>
-                    <p>Notre jury de renom évaluera les propositions sur la base de l'innovation, <br> de la faisabilité technique, et de l'impact social. <br> La clarté de la présentation et la capacité à convaincre sont aussi cruciales que la qualité technique du MVP.</p>
+                    <p class="justText">Notre jury de renom évaluera les propositions sur la base de l'innovation, <br> de la faisabilité technique, et de l'impact social. <br> La clarté de la présentation et la capacité à convaincre sont aussi cruciales que la qualité technique du MVP.</p>
                   </div>
                 </div>
 
@@ -314,7 +328,7 @@
                   <i class="ri-brush-4-line"></i>
                   <div>
                     <h4>Mentorat et Ressources </h4>
-                    <p>Nos mentors dévoués vous guideront dans l'élaboration de votre MVP. <br> Vous bénéficierez de leurs conseils, de leur expertise et des ressources nécessaires pour exceller.</p>
+                    <p class="justText">Nos mentors dévoués vous guideront dans l'élaboration de votre MVP. <br> Vous bénéficierez de leurs conseils, de leur expertise et des ressources nécessaires pour exceller.</p>
                   </div>
                 </div>
 
@@ -322,7 +336,7 @@
                   <i class="ri-magic-line"></i>
                   <div>
                     <h4>Lieu et Dates</h4>
-                    <p>Le challenge aura lieu dans le prestigieux Centre International de Conférences de Bamako. Notez les dates clés et préparez-vous pour une aventure enrichissante !</p>
+                    <p class="justText">Le challenge aura lieu dans le prestigieux Centre International de Conférences de Bamako. Notez les dates clés et préparez-vous pour une aventure enrichissante !</p>
                   </div>
                 </div>
 
@@ -387,7 +401,7 @@
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email </h3>
-                  <p>info@challengedigitalmali.com<br>contact@challengedigitalmali.com</p>
+                  <p>>contact@challengedigital.ml</p>
                 </div>
               </div>
               <div class="col-md-6">
