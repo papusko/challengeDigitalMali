@@ -426,10 +426,10 @@
               <a href="https://www.facebook.com/profile.php?id=61554710376840" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
 
-            <div class="partenaire">
+            <!-- <div class="partenaire">
             <h3>Une initiative de l'AMRTP</h3>
           <img class="logamrtp" src="{{ asset('assets/img/amrtp.jpg') }}" alt="">
-          </div>
+          </div> -->
           </div>
           
 
