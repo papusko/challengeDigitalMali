@@ -415,7 +415,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 col-md-12 footer-info">
-            <a href="https://www.facebook.com/profile.php?id=61554710376840" class="logo d-flex align-items-center">
+            <a href="/" class="logo d-flex align-items-center">
               <img src="{{ asset('assets/img/logocdm.jpg') }}" alt="">
               <span>Challenge Digital Mali</span>
             </a>
@@ -437,7 +437,7 @@
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Challenge Digital Mali</h4>
-            <p>Sotuba ACI<br>
+            <p>Sotuba ACI <br>
               <strong>Phone:</strong> +223 74 18 01 01<br>
               <strong>Email:</strong> contact@cdigitalmali.com<br>
             </p>
