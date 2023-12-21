@@ -337,7 +337,7 @@
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email </h3>
-                  <p>contact@cdigitalmali.com</p>
+                  <p>contact@challengedigital.ml</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -439,7 +439,7 @@
             <h4>Challenge Digital Mali</h4>
             <p>Sotuba ACI <br>
               <strong>Phone:</strong> +223 74 18 01 01<br>
-              <strong>Email:</strong> contact@cdigitalmali.com<br>
+              <strong>Email:</strong> contact@challengedigital.ml<br>
             </p>
 
           </div>

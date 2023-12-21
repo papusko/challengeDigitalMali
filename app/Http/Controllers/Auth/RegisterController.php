@@ -32,7 +32,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected $redirectTo = RouteServiceProvider::HOME;
 
     /**
      * Create a new controller instance.
@@ -70,6 +70,10 @@ class RegisterController extends Controller
         if ($data['work_in_company']) {
             $rules['company_name'] = ['required', 'string', 'max:255'];
             $rules['tasks_description'] = ['required', 'string', 'max:255'];
+        }
+
+        if (!empty($data['phone_number'])) {
+            $data['phone_number'] = preg_replace('/[\s\-]+/', '', $data['phone_number']);
         }
 
         // if (!empty($data['profile_picture'])) {
