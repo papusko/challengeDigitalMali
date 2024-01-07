@@ -54,7 +54,9 @@
           <li><a class="nav-link scrollto" href="#eligible">Critères d'éligibilité </a></li>
           <li><a class="nav-link scrollto" href="#detailschallenge">Détails du challenge</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="/register">Postuler</a></li>
+          <!-- <li><a class="getstarted scrollto" href="/register">Postuler</a></li> -->
+          <li><span class="candidature-terminee getstarted">Candidature terminée</span></li>
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

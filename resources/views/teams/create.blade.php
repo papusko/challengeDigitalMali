@@ -1,5 +1,5 @@
-@extends('layouts.app')
-@section('content')
+@extends('admin.dashboard')
+@section('contenu')
 <style>
   .uper {
     margin-top: 40px;

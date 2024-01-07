@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('fullname');
             $table->string('address');
             $table->string('region');
-            $table->string('motivation');
+            $table->text('motivation');
             $table->enum('role', ['financier', 'backend_dev', 'frontend_dev', 'marketing', 'admin', 'admin_user']);
             $table->string('email')->unique();
             $table->boolean('works_in_company')->default(false);

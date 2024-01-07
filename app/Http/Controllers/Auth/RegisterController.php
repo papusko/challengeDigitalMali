@@ -56,7 +56,7 @@ class RegisterController extends Controller
             'fullname' => ['required', 'string', 'max:255'],
             'address' => ['required', 'string', 'max:255'],
             'region' => ['required', 'string', 'max:255'],
-            'motivation' => ['required', 'string', 'max:255'],
+            'motivation' => ['required', 'string'],
             'role' => ['required', 'string', 'max:255'],
             'phone_number' => ['required', 'string', 'regex:/^\+?\d{1,4}?\s?\(?\d{1,4}\)?[-.\s]?\d{1,10}$/'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
@@ -64,12 +64,12 @@ class RegisterController extends Controller
             'is_active' => ['sometimes', 'boolean'],
             'highest_education_level' => ['required', 'string', 'max:255'],
             'institution_and_program' => ['required', 'string', 'max:255'],
-            'graduation_year' => ['required', 'string', 'max:255'],
+            'graduation_year' => ['required', 'string'],
         ];
 
         if ($data['work_in_company']) {
             $rules['company_name'] = ['required', 'string', 'max:255'];
-            $rules['tasks_description'] = ['required', 'string', 'max:255'];
+            $rules['tasks_description'] = ['required', 'string'];
         }
 
         if (!empty($data['phone_number'])) {

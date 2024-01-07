@@ -7,6 +7,7 @@ use App\Http\Controllers\IdeaController;
 
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\AdminUserController;
+use App\Http\Controllers\AdminDashboardController;
 
 
 /*
@@ -43,3 +44,11 @@ Route::post('/super-admin/register', [RegisterController::class, 'createSuperAdm
 
 Route::get('/admin/users/create', [AdminUserController::class, 'create'])->name('admin.users.create');
 Route::post('/admin/users/store', [AdminUserController::class, 'store'])->name('admin.users.store');
+
+// Dashboard 
+Route::get('/admin-dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
+// Route::get('/admin/postulant', 'AdminDashboardController@postulant')->name('admin.postulant');
+
+Route::get('/export-to-excel', [AdminDashboardController::class, 'exportToExcel'])->name('export.to.excel');
+Route::get('/user/activate/{userId}', [AdminDashboardController::class, 'activateUser'])->name('user.activate');
+Route::get('/user/{userId}/info', [AdminDashboardController::class, 'show'])->name('user.show');

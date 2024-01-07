@@ -50,9 +50,7 @@
                             @include('partials.postulant_role')
                         </div>
 
-                        <div class="row mb-3 step" id="step3" >
-                            @include('partials.school_experience')
-                        </div>
+                       
 
                             <!-- work_in_company -->
                         <div class="row mb-3">
@@ -134,7 +132,7 @@
                         <div class="row mb-3">
                             <label for="graduation_year" class="col-md-4 col-form-label text-md-end">{{ __('Année') }}</label>
                             <div class="col-md-6">
-                                <input id="graduation_year" type="year" class="form-control @error('graduation_year') is-invalid @enderror" name="graduation_year" value="{{ old('graduation_year') }}" autocomplete="graduation_year" autofocus>
+                                <input id="graduation_year" type="text" class="form-control @error('graduation_year') is-invalid @enderror" name="graduation_year" value="{{ old('graduation_year') }}" autocomplete="graduation_year" autofocus>
                                 @error('graduation_year')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>

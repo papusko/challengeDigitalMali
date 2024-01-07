@@ -1,5 +1,5 @@
-@extends('layouts.app')
-@section('content')
+@extends('admin.dashboard')
+@section('contenu')
 <style>
   .uper {
     margin-top: 40px;
@@ -26,12 +26,12 @@
 .         @csrf
           <div class="form-group">
               <label for="title">Titre:</label>
-              <textarea type="text" class="form-control" name="title"></textarea>
+              <input type="text" class="form-control" name="title" />
           </div>
 
           <div class="form-group">
               <label for="description">Description de l'idée :</label>
-              <input type="text" class="form-control" name="description"/>
+              <textarea type="text" class="form-control" name="description"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Ajouter</button>
       </form>

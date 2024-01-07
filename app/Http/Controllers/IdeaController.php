@@ -44,7 +44,7 @@ class IdeaController extends Controller
         
         $validated = $request->validate([
             'title' => ['required', 'string', 'max:255'],
-            'description' => ['required', 'string', 'max:255']
+            'description' => ['required', 'string']
         ]);
 
         if($validated){
@@ -56,6 +56,7 @@ class IdeaController extends Controller
                 ]
                 );
         }
+        return redirect('/idea');
     }
 
     /**

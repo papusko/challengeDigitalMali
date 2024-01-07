@@ -9,8 +9,10 @@ class TeamMenber extends Model
 {
     use HasFactory;
 
+    protected $table = 'teamsmenber';
+
     protected $fillable = [
-        'leader_id',
+        'user_id',
         'team_id',
         'role_in_team'
     ];

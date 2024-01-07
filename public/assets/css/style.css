@@ -258,7 +258,7 @@ section {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-    background: #4154f1;
+    /* background: #4154f1; */
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 4px;
@@ -268,7 +268,7 @@ section {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
     color: #fff;
-    background: #5969f3;
+    background: red
 }
 
 .navbar .dropdown ul {
@@ -2448,4 +2448,10 @@ section {
 
 .imgbord {
     border-radius: 20px;
+}
+.candidature-terminee {
+    color: white;
+    background-color: red; /* Vous pouvez ajuster la couleur de fond selon vos préférences */
+    padding: 5px 10px; /* Vous pouvez ajuster les marges intérieures pour le style */
+    border-radius: 5px; /* Vous pouvez ajouter des coins arrondis pour le style */
 }
