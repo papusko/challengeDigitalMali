@@ -47,7 +47,10 @@ Route::post('/admin/users/store', [AdminUserController::class, 'store'])->name('
 
 // Dashboard 
 Route::get('/admin-dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
-// Route::get('/admin/postulant', 'AdminDashboardController@postulant')->name('admin.postulant');
+Route::get('/postulant-finance', [AdminDashboardController::class, 'financier'])->name('postulant.finance');
+Route::get('/postulant-marketing', [AdminDashboardController::class, 'marketing'])->name('postulant.marketing');
+Route::get('/postulant-frontend', [AdminDashboardController::class, 'frontend'])->name('postulant.frontend');
+Route::get('/postulant-backend', [AdminDashboardController::class, 'backend'])->name('postulant.backend');
 
 Route::get('/export-to-excel', [AdminDashboardController::class, 'exportToExcel'])->name('export.to.excel');
 Route::get('/user/activate/{userId}', [AdminDashboardController::class, 'activateUser'])->name('user.activate');

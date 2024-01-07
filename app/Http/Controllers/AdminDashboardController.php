@@ -27,11 +27,11 @@ class AdminDashboardController extends Controller
     }
 
     public function exportToExcel()
-{
-    return Excel::download(new UsersExport, 'users-export.xlsx');
-}
+    {
+        return Excel::download(new UsersExport, 'users-export.xlsx');
+    }
 
-public function activateUser(Request $request, $userId)
+    public function activateUser(Request $request, $userId)
     {
         $user = User::findOrFail($userId);
         $user->is_active = true;
@@ -55,6 +55,29 @@ public function activateUser(Request $request, $userId)
     {
         $postulant = User::findOrFail($id);
         return view('postulant.show', compact('postulant'));
+    }
+
+    public function frontend() {
+        
+        $postulantDevFrontend = User::where('role', 'frontend_dev')->get();
+        return view('postulant.frontend', compact('postulantDevFrontend'));
+    }
+
+    public function backend() {
+        $postulantDevBackend = User::where('role', 'backend_dev')->get();
+        return view('postulant.backend', compact('postulantDevBackend'));
+    }
+
+    public function financier() {
+        
+        $postulantFinance = User::where('role', 'financier')->get();
+        return view('postulant.finance', compact('postulantFinance'));
+    }
+
+    public function marketing() {
+        
+        $postulantMarketing = User::where('role', 'marketing')->get();
+        return view('postulant.marketing', compact('postulantMarketing'));
     }
 
    
